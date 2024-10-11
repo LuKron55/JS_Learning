@@ -1,20 +1,15 @@
+console.log(Math);
+console.log(Math.PI)
+console.log(Math.E)
 
-let user = {
-    name: 'harry',
-    age: 17,
-    email: 'harry@harry.men',
-    location: 'clacton',
-    blogs: ['how my hard drive broke', 'the sopranos killed my drive'],
-    login: function(){
-        console.log('harry is gay lmfao')
-    },
-    logout: function(){
-        console.log('harry is not gay lmfao')
-    },
-    logBlogs: function(){
+const area = 7.4;
 
-    }
-};
+console.log(Math.round(area))
+console.log(Math.floor(area))
+console.log(Math.ceil(area))
+console.log(Math.trunc(area))
 
+const random = Math.random(0,100);
 
-
+console.log(random)
+console.log(Math.round(random*100))
